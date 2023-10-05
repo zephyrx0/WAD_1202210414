@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+    background-image: url(backgroound.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+p {
+    color: white;
+}
