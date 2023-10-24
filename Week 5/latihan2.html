@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AKN Bojonegoro</title>
+    </head>
+    <body>
+         <h1>BERBAHAYA CIK!!!!</h1>
+         <img id="myImage" onclick="changeImage()" src="safe.jpeg" width="130" height="180">
+         <p>Pijit gambar untuk menghilangkan MR.SAFETY</p>
+         <script>
+            function changeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("nig")) {
+                    image.src = "safe.jpeg";
+                } else {
+                    image.src = "nig.jpg";
+                };  
+            }
+         </script>
+    </body>
+</html>
